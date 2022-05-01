@@ -144,3 +144,9 @@ span {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media(max-width: 375px) {
+    #card {
+        margin: auto;
+    }
+}
