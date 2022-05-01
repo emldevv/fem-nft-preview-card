@@ -57,6 +57,20 @@ p {
     padding-bottom: 1rem;
 }
 
+/* Test this transition for the active state. I'm not sure
+what each component does, so introduce one at a time 
+to learn their effects*/
+#equilibrium {
+    transition: transform 750ms,
+    opacity 250ms linear;
+}
+
+#equilibrium:hover {
+    opacity: 0.75;
+
+}
+
+
 #description {
     margin: 0;
     padding-top: 0.8rem;
