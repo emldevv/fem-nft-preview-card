@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    margin-top: 10%;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* General typography */
+body {
+    font-size: 10px;
+}
+
+/* Main elements */
+#card {
+    background-color: hsl(216, 50%, 16%);
+}
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
