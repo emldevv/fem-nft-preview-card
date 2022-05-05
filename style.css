@@ -13,7 +13,7 @@ p {
 }
 
 main {
-    min-width: 375;
+    min-width: 375px;
     min-height: 667px;
     display: flex;
     flex-direction: column;
@@ -42,6 +42,29 @@ p {
     color: hsl(215, 51%, 70%);
 }
 
+.link-text {
+    text-decoration: none;
+    color: white;
+}
+
+/* Effects */
+a:active {
+    opacity: 0.75;
+}
+
+.link-item {
+    background-color: hsl(178, 100%, 50%);
+}
+
+#equilibrium {
+    transition: transform 1ms,
+    opacity 500ms linear;
+}
+
+.link-text {
+    text-decoration: none;
+    color: white;
+}
 
 
 /* Card */
@@ -58,11 +81,9 @@ p {
     border-radius: 5px;
     display: block;
     margin: auto;
-
-    transition: transform 750ms,
-    opacity 250ms linear;
 }
 
+/* NFT image and title */
 #equilibrium :active {
     opacity: 0.75;
 }
@@ -71,8 +92,8 @@ h1 {
     margin-top: 2.2rem;
     margin-bottom: 1.5rem;
 
-    transition: transform 750ms,
-    opacity 250ms linear;
+    transition: transform 1ms,
+    opacity 500ms linear;
 }
 
 #description{
@@ -81,11 +102,7 @@ h1 {
     line-height: 160%;
 }
 
-#equilibrium :active {
-    opacity: 0.75;
-}
-
-/* Details section */
+/* NFT details */
 #details {
     display: flex;
     justify-content: space-between;
@@ -106,13 +123,14 @@ h1 {
     font-weight: 400;
 }
 
-/* Footer */
 #line {
     background-color: hsl(215, 51%, 70%);
     height: 0.09px;
     width: 100%;
     margin-bottom: 1.5rem;
 }
+
+/* Creator info */
 #avatar {
     max-width: 3.5rem;
     border: 0.5px solid white;
