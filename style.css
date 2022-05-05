@@ -42,26 +42,15 @@ p {
     color: hsl(215, 51%, 70%);
 }
 
-.link-text {
-    text-decoration: none;
-    color: white;
-}
-
 /* Effects */
+
 a:active {
     opacity: 0.75;
+    color: hsl(178, 100%, 50%);
 }
 
-.link-item {
-    background-color: hsl(178, 100%, 50%);
-}
-
-#equilibrium {
-    transition: transform 1ms,
-    opacity 500ms linear;
-}
-
-.link-text {
+.a-text {
+    opacity: 1;
     text-decoration: none;
     color: white;
 }
@@ -84,16 +73,9 @@ a:active {
 }
 
 /* NFT image and title */
-#equilibrium :active {
-    opacity: 0.75;
-}
-
 h1 {
     margin-top: 2.2rem;
     margin-bottom: 1.5rem;
-
-    transition: transform 1ms,
-    opacity 500ms linear;
 }
 
 #description{

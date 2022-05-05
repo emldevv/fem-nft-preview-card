@@ -1,0 +1,11 @@
+myNotes
+
+Really important lessons
+
+I have managed to use active for the first time. On text active is pretty simple, you just select the <a> tag (or class or id) and change the colour when clicked.
+
+a:active {
+    color: hsl(178, 100%, 50%);
+}
+
+On images it is a little more difficult, and I still haven't completely solved it. I have paced a :hover on images in a follow along tutorial, but I'm having trouble narrowing down the direct relationship that causes the transformation.
