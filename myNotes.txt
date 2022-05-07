@@ -9,3 +9,5 @@ a:active {
 }
 
 On images it is a little more difficult, and I still haven't completely solved it. I have paced a :hover on images in a follow along tutorial, but I'm having trouble narrowing down the direct relationship that causes the transformation.
+
+I figured out how to transition images to bring a background colour when hovering. It was way more simple tahn I was making it. The mindset is to think in terms of layers. I was trying to bring a cyan background colour through when hovering over the NFT, but it was attached to the a-tag and wasn't working. Instead, I created another layer by wrapping the NFT in a div and making it's background colour cyan. This way, when hovering over the nft, the div backgound colour came through.
